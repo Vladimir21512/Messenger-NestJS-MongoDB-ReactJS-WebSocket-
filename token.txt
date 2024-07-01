@@ -1,0 +1,20 @@
+accessToken хранить в localstorage
+refreshToken в куках
+
+Payload для токенов:
+
+name
+nickname
+email
+_id
+
+
+
+Токен содержит:
+
+email,
+name,
+nickname,
+_id,
+refreshToken,
+accessToken

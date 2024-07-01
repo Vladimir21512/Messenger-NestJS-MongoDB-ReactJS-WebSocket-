@@ -1,0 +1,276 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body, html{
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.message{
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  max-width: 50%;
+  align-items: flex-start;
+}
+.my_message{
+  margin-top: 40px;
+  float:right;
+  margin-left: 20px;
+  display: flex;
+  max-width: 50%;
+  align-items: flex-start;
+}
+.sender_chat_name{
+  margin: 0;
+  font-size: 15px;
+}
+.text_chat_block{
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 21px;
+  max-width: 400px;
+  min-height: 70px;
+  height:auto;
+}
+.my_text_chat_block{
+  border-radius: 10px;
+  color: white;
+  background-color: #9d0909;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 21px;
+  max-width: 400px;
+  min-height: 70px;
+  height:auto;
+}
+.message_p_tag{
+  max-width: 400px;
+  height:auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.wrapper{
+  display: flex;
+  min-height: 800px;
+  height: 100%;
+  width: 100%;
+}
+.ChatBar{
+  /*display: table-cell;*/
+
+  /*min-height: 800px;*/
+
+  float: left;
+  height: 100%;
+  background-color: #ffffff;
+  width: 350px;
+  border-right: 1px solid gray;
+}
+.ChatWindow{
+
+  /*min-height: 800px;*/
+
+  height: 100%;
+  overflow: auto;
+  flex-grow: 1;
+  float: right;
+  background-color: #61dafb;
+}
+
+.Auth{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.authForm{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 50%;
+  margin-bottom: 35px;
+  height: 27px;
+}
+.authButton{
+  border:none;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: #4b4bf5;
+  height: 45px;
+  width: 50%;
+}
+.foot_bar_chat{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.add_friend{
+  font-size: 50px;
+  position: relative;
+  bottom: 0;
+  margin-left: 30px;
+}
+.chats{
+  width: 100%;
+  height: 90%;
+}
+.foot_chat{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact_avatar{
+
+  width: 70px;
+  height:70px;
+  border-radius:50%;
+  overflow: hidden;
+}
+
+.contact_bar{
+  height: 100px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.contact_demo_info{
+  display: flex;
+  margin-left: 7px;
+  flex-direction: column;
+  justify-content: center;
+}
+.chat_line{
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  height: 70px;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.chat_start_line{
+  float: left;
+}
+.top_chats{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 90px;
+  border-bottom: 1px solid gray;
+}
+.menu{
+  margin-left: 10px;
+  display: flex;
+  height: 60%;
+  width: 60px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu_cpan{
+  display: block;
+  height: 2px;
+  width: 40px;
+  border: 1px solid black;
+}
+.close--two {
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+#sidebar{
+  transition: 0.7s;
+  left: -450px;
+  height: 100%;
+  position: fixed;
+  width: 450px;
+  background-color: #1e1e65;
+}
+#label_change_img{
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.ChangePhoto{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+.special_class{
+  margin-left:10px;
+  display: flex;
+  height: 75px;
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact_chat_button{
+  background-color: black;
+  border: none;
+  width: 250px;
+  border-radius: 20px;
+  color: white;
+  height: 45px;
+}
+
+.left_top_chat{
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
