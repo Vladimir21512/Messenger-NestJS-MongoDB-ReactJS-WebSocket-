@@ -1,9 +1,23 @@
-Мессенджер: Nestjs, ReactJS, MongoDB, WebSocket
 
-Функции:
+# Project Title
 
-1.Регистрация, логин
-2.Отправка сообщений в режиме реального времени(текст, изображения)
-3.Отслеживания статуса пользователя в режиме реального времени
-4.Поиск пользователей
-5.Добавление контактов
+A brief description of what this project does and who it's for
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
