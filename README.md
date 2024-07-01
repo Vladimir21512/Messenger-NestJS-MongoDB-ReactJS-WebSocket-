@@ -1,7 +1,13 @@
 
-# Project Title
+# Мессенджер: Nestjs, ReactJS, MongoDB, WebSocket
 
-A brief description of what this project does and who it's for
+Функции:
+
+1.Регистрация, логин <br />
+2.Отправка сообщений в режиме реального времени(текст, изображения) <br /> 
+3.Отслеживания статуса пользователя в режиме реального времени <br /> 
+4.Поиск пользователей <br /> 
+5.Добавление контактов <br />
 
 
 ## Deployment
