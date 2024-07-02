@@ -41,3 +41,9 @@ EXPIRE_REFRESH - время жизни refresh токена <br />
 В каталоге **serice_clent** в .env файле переменные **(клиентская часть)**: <br />
 <br />
 REACT_APP_SERVER_URL- url серверной части
+
+## Схемы
+1.Схемы отображения статуса пользователя:
+![alt text](https://cloud.mail.ru/attaches/17170739711105781593%3B0%3B3?folder-id=0&x-email=shvladimir2710%40gmail.com&cvg=f)
+![alt text](https://cloud.mail.ru/attaches/17170739711105781593%3B0%3B2?folder-id=0&x-email=shvladimir2710%40gmail.com&cvg=f)
+![alt text](https://cloud.mail.ru/attaches/17170739711105781593%3B0%3B1?folder-id=0&x-email=shvladimir2710%40gmail.com&cvg=f)
