@@ -10,12 +10,17 @@
 5.Добавление контактов <br />
 
 
-## Deployment
+## Запуск
 
-To deploy this project run
+Что запустить проект, перейти в каталог serice из терминала и запустить(серверная часть):
 
 ```bash
-  npm run deploy
+  npm run start:dev
+```
+Потом из каталога serice_clent запустить команды(клиентская часть):
+
+```bash
+  npm start
 ```
 
 
