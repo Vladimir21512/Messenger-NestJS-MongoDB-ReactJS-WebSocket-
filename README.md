@@ -44,6 +44,6 @@ REACT_APP_SERVER_URL- url серверной части
 
 ## Схемы
 1.Схемы отображения статуса пользователя:
-![alt text](https://cloud.mail.ru/public/NnQW/QS3F98wen)
-![alt text](https://cloud.mail.ru/public/iMsF/NUMAuAdva)
-![alt text](https://cloud.mail.ru/public/XtAW/iWHSbawin)
+![alt text](https://thumb.cloud.mail.ru/weblink/thumb/xw1/NnQW/QS3F98wen)
+![alt text](https://thumb.cloud.mail.ru/weblink/thumb/xw1/XtAW/iWHSbawin)
+![alt text](https://thumb.cloud.mail.ru/weblink/thumb/xw1/iMsF/NUMAuAdva)
