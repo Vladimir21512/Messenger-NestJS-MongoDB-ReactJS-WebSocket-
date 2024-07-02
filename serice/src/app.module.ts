@@ -10,7 +10,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://shvladimir2710:6myaldallmkrise9@sericedatabase.ygwaibh.mongodb.net/'), ConfigModule.forRoot({isGlobal:true,}),UserModule, ChatModule, MessageModule,
+  imports: [MongooseModule.forRoot('MONGODB_URL'), ConfigModule.forRoot({isGlobal:true,}),UserModule, ChatModule, MessageModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..','src', 'images'),
     })
