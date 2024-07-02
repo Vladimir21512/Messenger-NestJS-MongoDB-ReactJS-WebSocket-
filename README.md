@@ -22,12 +22,19 @@
 ```bash
   npm start
 ```
+По необходимости запустить команду для инициализации:
+```bash
+  npm init
+```
 
 
 ## Переменные окружения
 
-В каталоге serice в .env файле переменные: </ br>
-JWT_ACCES_SECRET - секрет для jwt access токенов
-JWT_REFRESH_SECRET - секрет для jwt refresh токенов
-EXPIRE_ACCESS - время жизни access токена
-EXPIRE_REFRESH - время жизни refresh токена
+В каталоге serice в .env файле переменные(серверная часть): <br />
+JWT_ACCES_SECRET - секрет для jwt access токенов <br />
+JWT_REFRESH_SECRET - секрет для jwt refresh токенов <br />
+EXPIRE_ACCESS - время жизни access токена <br />
+EXPIRE_REFRESH - время жизни refresh токена <br />
+<br />
+В каталоге serice_clent в .env файле переменные(клиентская часть): <br />
+REACT_APP_SERVER_URL- url серверной части
