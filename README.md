@@ -24,11 +24,10 @@
 ```
 
 
-## Environment Variables
+## Переменные окружения
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
+В каталоге serice в .env файле переменные: </ br>
+JWT_ACCES_SECRET - секрет для jwt access токенов
+JWT_REFRESH_SECRET - секрет для jwt refresh токенов
+EXPIRE_ACCESS - время жизни access токена
+EXPIRE_REFRESH - время жизни refresh токена
